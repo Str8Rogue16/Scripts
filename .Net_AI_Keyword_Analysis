@@ -1,0 +1,42 @@
+Using Systems;
+// will need an API Key for Twitter (X) or Instagram (IG) or any other platform that you want to scan for these keywords
+
+namespace SimpleAIScrapper { 
+  class Program {
+    static void Main(string)[] args() {
+
+Console.WriteLine("welcome to the AIScrapper Program. We will begin scraping your list momentarily.");
+
+string userInput;
+  do {
+    Console.Write("Your platform of interest?");
+    userInput = Console.ReadLine
+
+    // AI Logic will work to provide responses 
+
+    string response = getResponse(userInput);
+    Console.WriteLine("AI: " + reponse);
+} while (userInput.ToLower() != "exit");
+}
+
+static string GetResponse(string input) {
+// Basic Logic goes here to provide a predefined response
+
+if (input.Contains("Twitter")) {
+  return "Twitter is the target";
+} else if {
+  (input.Contains ("Instagram");
+  return "Instagram is the target";
+} return {
+"We are going to run your scan of your key word lists against these platforms to get an assessment.";
+} else if {
+(input.Contains("exit") {
+return "Goodbye! Have a great day!";
+} else {
+return "Are you sure you don't want to continue?";
+    }
+  }
+  }
+}
+
+
